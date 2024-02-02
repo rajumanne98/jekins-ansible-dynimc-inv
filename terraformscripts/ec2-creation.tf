@@ -8,7 +8,7 @@ instance_type = "t2.micro"
 key_name = "naveenpem"
 security_groups = ["launch-wizard-2"]
 tags={
-Name = "tomcatservers"
+Name = "tomservers"
 }
 }
 
