@@ -1,17 +1,16 @@
 provider "aws"{
-region = "ap-south-1"
+region = "ap-southeast-2"
 }
 
 resource "aws_instance" "AWSEC2Instance"{
-ami = "ami-0d3f444bc76de0a79"
+ami = "ami-03b4905c5f84d954b"
 instance_type = "t2.micro"
-key_name = "devopsoctbatch"
+key_name = "naveenpem"
 security_groups = ["launch-wizard-2"]
 tags={
 Name = "tomcatservers"
 }
 }
-
 
 
 
